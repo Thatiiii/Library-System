@@ -1,11 +1,4 @@
-<p>button works!</p>
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-
-@Component ({
-  imports: [
-    MatSlideToggleModule,
-  ]
-})
-class AppComponent {}
-
-<mat-slide-toggle>Toggle me!</mat-slide-toggle>
+<div class="button-list">
+  <button type="button" class="pink-button" (click)="onButtonClick()">CLICK</button>
+</div>
+<p aria-live="polite">Click count: {{ clickCount }}</p>

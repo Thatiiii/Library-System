@@ -1,0 +1,29 @@
+.button-list {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.pink-button {
+  padding: 0.65rem 1.25rem;
+  color: white;
+  background-color: #e91e63;
+  border: 0;
+  border-radius: 999px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 140ms ease, transform 140ms ease;
+}
+
+.pink-button:hover {
+  background-color: #c2185b;
+}
+
+.pink-button:active {
+  transform: scale(0.97);
+}
+
+.pink-button:focus-visible {
+  outline: 3px solid #880e4f;
+  outline-offset: 3px;
+}
